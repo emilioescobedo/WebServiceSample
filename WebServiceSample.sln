@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebServiceSample", "WebServiceSample\", "{68C729BF-B013-437D-B1D0-87F484F92001}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59791"
+		Debug.AspNetCompiler.PhysicalPath = "WebServiceSample\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59791\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59791"
+		Release.AspNetCompiler.PhysicalPath = "WebServiceSample\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59791\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59791"
+		SlnRelativePath = "WebServiceSample\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Calculator(1)", "Calculator\", "{0AB1D3C0-FAB1-4866-94FA-DC1B124FDADC}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62648"
+		Debug.AspNetCompiler.PhysicalPath = "Calculator\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62648\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62648"
+		Release.AspNetCompiler.PhysicalPath = "Calculator\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62648\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "62648"
+		SlnRelativePath = "Calculator\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{68C729BF-B013-437D-B1D0-87F484F92001} = {68C729BF-B013-437D-B1D0-87F484F92001}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68C729BF-B013-437D-B1D0-87F484F92001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68C729BF-B013-437D-B1D0-87F484F92001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB1D3C0-FAB1-4866-94FA-DC1B124FDADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB1D3C0-FAB1-4866-94FA-DC1B124FDADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B227886-C518-4CC6-8A08-29C0EB543DF3}
+	EndGlobalSection
+EndGlobal
